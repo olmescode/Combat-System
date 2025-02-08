@@ -18,8 +18,7 @@ Combat Actions/
 ├── RangedAttacks/
 └── ElementalAttacks/
 ```
-![fighting-moves-1](https://i.postimg.cc/pr9HhfLM/fighting-moves-1.gif)
-![fighting-moves-1](https://i.postimg.cc/sxtRpMMQ/fighting-moves-2.gif)
+![fighting-moves-1](https://github.com/user-attachments/assets/46822adc-e1e2-43e1-87d5-a32582a36382)
 
 ### Initialization Flow
 1. Client/Server entry points (`ClientCombatScript.client.luau`/`ServerCombatScript.server.luau`)
