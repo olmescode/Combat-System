@@ -1,10 +1,8 @@
 # Combat System
 
-## Overview
 A combat system originally developed for Monsta's BoBoiBoy game. This system provides dynamic fighting mechanics with element-based attacks, originally designed for the 3D animated series where the main character can control seven different elements.
 
-![Combat System Overview](assets/images/overview.gif)
-<!-- Add a GIF showcasing the general combat system -->
+![Image](https://github.com/user-attachments/assets/89e9d4f0-c244-4e7e-9b18-36b591f309f3)
 
 ## Features
 - Two distinct combat systems (FightingMoves1 & FightingMoves2)
@@ -20,8 +18,8 @@ Combat Actions/
 ├── RangedAttacks/
 └── ElementalAttacks/
 ```
-![Attack Types](assets/images/attacks.png)
-<!-- Add screenshots showing different attack types -->
+![fighting-moves-1](https://i.postimg.cc/pr9HhfLM/fighting-moves-1.gif)
+![fighting-moves-1](https://i.postimg.cc/sxtRpMMQ/fighting-moves-2.gif)
 
 ### Initialization Flow
 1. Client/Server entry points (`ClientCombatScript.client.luau`/`ServerCombatScript.server.luau`)
