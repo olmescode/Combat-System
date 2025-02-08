@@ -75,7 +75,7 @@ function ActionManager.bindAction(
 			progressBar.Visible = true
 
 			progressBar:TweenSize(
-				UDim2.new(0, 0, 0.8, 0),
+				UDim2.new(0, 0, 1, 0),
 				Enum.EasingDirection.Out,
 				Enum.EasingStyle.Quad,
 				cooldown,
@@ -90,7 +90,7 @@ function ActionManager.bindAction(
 
 			if currentTime - binding.lastActionTime >= cooldown then
 				-- Reset the progress bar size and hide it
-				progressBar.Size = UDim2.new(0.8, 0, 0.8, 0)
+				progressBar.Size = UDim2.new(1, 0, 1, 0)
 				progressBar.Visible = false
 
 				ActionManager._actionInProgress = true
